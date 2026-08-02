@@ -1,5 +1,9 @@
 class Solution(object):
-    def lengthOfLongestSubstring(self, s):       
+    def lengthOfLongestSubstring(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
         char_set = set()
         left = 0
         max_length = 0
@@ -13,9 +17,3 @@ class Solution(object):
             max_length = max(max_length, right - left + 1)
 
         return max_length
-
-        """
-        :type s: str
-        :rtype: int
-        """
-        
