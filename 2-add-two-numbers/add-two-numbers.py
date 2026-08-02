@@ -3,11 +3,13 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-      # Definition for singly-linked list.
-
-
-class Solution:
+class Solution(object):
     def addTwoNumbers(self, l1, l2):
+        """
+        :type l1: Optional[ListNode]
+        :type l2: Optional[ListNode]
+        :rtype: Optional[ListNode]
+        """
         dummy = ListNode(0)
         current = dummy
         carry = 0
@@ -28,10 +30,3 @@ class Solution:
                 l2 = l2.next
 
         return dummy.next
-
-        """
-        :type l1: Optional[ListNode]
-        :type l2: Optional[ListNode]
-        :rtype: Optional[ListNode]
-        """
-        
