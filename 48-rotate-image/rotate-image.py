@@ -4,7 +4,6 @@ class Solution(object):
         :type matrix: List[List[int]]
         :rtype: None Do not return anything, modify matrix in-place instead.
         """
-        
         n = len(matrix)
 
         # Transpose the matrix
