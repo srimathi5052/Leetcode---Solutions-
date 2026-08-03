@@ -4,7 +4,7 @@ class Solution(object):
         :type intervals: List[List[int]]
         :rtype: List[List[int]]
         """
-
+        
         intervals.sort(key=lambda x: x[0])
 
         merged = []
