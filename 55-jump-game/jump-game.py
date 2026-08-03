@@ -4,7 +4,6 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
-
         farthest = 0
 
         for i in range(len(nums)):
