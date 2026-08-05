@@ -5,7 +5,6 @@ class Solution(object):
         :type val: int
         :rtype: int
         """
-      
         k = 0
 
         for i in range(len(nums)):
