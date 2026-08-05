@@ -4,7 +4,6 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        
         current_sum = nums[0]
         max_sum = nums[0]
 
