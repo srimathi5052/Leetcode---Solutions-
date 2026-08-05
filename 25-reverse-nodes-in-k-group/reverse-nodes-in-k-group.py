@@ -10,13 +10,6 @@ class Solution(object):
         :type k: int
         :rtype: Optional[ListNode]
         """
-        # Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
-
-
         dummy = ListNode(0)
         dummy.next = head
         groupPrev = dummy
