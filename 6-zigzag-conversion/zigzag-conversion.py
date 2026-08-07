@@ -1,5 +1,10 @@
 class Solution(object):
     def convert(self, s, numRows):
+        """
+        :type s: str
+        :type numRows: int
+        :rtype: str
+        """
         if numRows == 1 or numRows >= len(s):
             return s
 
@@ -16,9 +21,3 @@ class Solution(object):
             current_row += direction
 
         return ''.join(rows)
-        """
-        :type s: str
-        :type numRows: int
-        :rtype: str
-        """
-        
