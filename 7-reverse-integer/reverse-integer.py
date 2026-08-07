@@ -1,5 +1,9 @@
 class Solution(object):
     def reverse(self, x):
+        """
+        :type x: int
+        :rtype: int
+        """
         sign = -1 if x < 0 else 1
         x = abs(x)
 
@@ -14,8 +18,3 @@ class Solution(object):
             return 0
 
         return rev
-        """
-        :type x: int
-        :rtype: int
-        """
-        
