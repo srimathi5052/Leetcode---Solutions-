@@ -1,5 +1,10 @@
 class Solution(object):
     def isMatch(self, s, p):
+        """
+        :type s: str
+        :type p: str
+        :rtype: bool
+        """
         m, n = len(s), len(p)
 
         dp = [[False] * (n + 1) for _ in range(m + 1)]
@@ -24,9 +29,3 @@ class Solution(object):
                         dp[i][j] = dp[i][j] or dp[i - 1][j]
 
         return dp[m][n]
-        """
-        :type s: str
-        :type p: str
-        :rtype: bool
-        """
-        
