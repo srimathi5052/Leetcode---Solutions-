@@ -11,7 +11,6 @@ class Solution(object):
         :type q: Optional[TreeNode]
         :rtype: bool
         """
-        
         if not p and not q:
             return True
 
