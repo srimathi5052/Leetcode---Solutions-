@@ -10,7 +10,6 @@ class Solution(object):
         :type root: Optional[TreeNode]
         :rtype: bool
         """
-        
         def isMirror(left, right):
             if not left and not right:
                 return True
