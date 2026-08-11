@@ -4,7 +4,7 @@ class Solution(object):
         :type dungeon: List[List[int]]
         :rtype: int
         """
-       
+          
         m, n = len(dungeon), len(dungeon[0])
 
         dp = [[float('inf')] * (n + 1) for _ in range(m + 1)]
