@@ -11,7 +11,7 @@ class Solution(object):
         :type targetSum: int
         :rtype: List[List[int]]
         """
-       
+        
         result = []
 
         def dfs(node, target, path):
