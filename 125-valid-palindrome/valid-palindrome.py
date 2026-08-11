@@ -4,7 +4,6 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-       
         left = 0
         right = len(s) - 1
 
