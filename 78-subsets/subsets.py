@@ -4,7 +4,6 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[List[int]]
         """
-
         result = []
 
         def backtrack(start, path):
