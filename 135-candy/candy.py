@@ -4,7 +4,6 @@ class Solution(object):
         :type ratings: List[int]
         :rtype: int
         """
-        
         n = len(ratings)
         candies = [1] * n
 
