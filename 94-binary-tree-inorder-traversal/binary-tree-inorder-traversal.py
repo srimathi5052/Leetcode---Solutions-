@@ -10,7 +10,6 @@ class Solution(object):
         :type root: Optional[TreeNode]
         :rtype: List[int]
         """
-        
         result = []
         stack = []
         curr = root
