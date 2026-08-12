@@ -4,7 +4,6 @@ class Solution(object):
         :type board: List[List[str]]
         :rtype: bool
         """
-        
         rows = [set() for _ in range(9)]
         cols = [set() for _ in range(9)]
         boxes = [set() for _ in range(9)]
