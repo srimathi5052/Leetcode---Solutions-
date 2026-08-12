@@ -4,7 +4,7 @@ class Solution(object):
         :type triangle: List[List[int]]
         :rtype: int
         """
-        
+         
         dp = triangle[-1][:]
 
         for i in range(len(triangle) - 2, -1, -1):
