@@ -4,7 +4,6 @@ class Solution(object):
         :type board: List[List[str]]
         :rtype: None Do not return anything, modify board in-place instead.
         """
-      
         if not board or not board[0]:
             return
 
