@@ -5,7 +5,6 @@ class Solution(object):
         :type b: str
         :rtype: str
         """
-        
         i = len(a) - 1
         j = len(b) - 1
         carry = 0
