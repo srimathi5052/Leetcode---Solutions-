@@ -4,7 +4,6 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        
         if not s or s[0] == '0':
             return 0
 
