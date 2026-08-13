@@ -4,7 +4,7 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-       
+        
         stack = [-1]
         max_len = 0
 
