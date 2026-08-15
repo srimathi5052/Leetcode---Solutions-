@@ -4,7 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-
+        
         jumps = 0
         current_end = 0
         farthest = 0
