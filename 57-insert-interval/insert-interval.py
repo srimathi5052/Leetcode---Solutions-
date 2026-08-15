@@ -5,7 +5,7 @@ class Solution(object):
         :type newInterval: List[int]
         :rtype: List[List[int]]
         """
-
+        
         result = []
         i = 0
         n = len(intervals)
