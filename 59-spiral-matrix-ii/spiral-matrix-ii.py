@@ -4,7 +4,6 @@ class Solution(object):
         :type n: int
         :rtype: List[List[int]]
         """
-
         matrix = [[0] * n for _ in range(n)]
 
         top, bottom = 0, n - 1
