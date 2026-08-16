@@ -1,5 +1,9 @@
 class Solution(object):
     def threeSum(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
         nums.sort()
         result = []
 
@@ -16,13 +20,14 @@ class Solution(object):
                 if total == 0:
                     result.append([nums[i], nums[left], nums[right]])
 
-                    while left < right and nums[left] == nums[left + 1]:
-                        left += 1
-                    while left < right and nums[right] == nums[right - 1]:
-                        right -= 1
-
                     left += 1
                     right -= 1
+
+                    while left < right and nums[left] == nums[left - 1]:
+                        left += 1
+
+                    while left < right and nums[right] == nums[right + 1]:
+                        right -= 1
 
                 elif total < 0:
                     left += 1
@@ -30,8 +35,3 @@ class Solution(object):
                     right -= 1
 
         return result
-        """
-        :type nums: List[int]
-        :rtype: List[List[int]]
-        """
-        
