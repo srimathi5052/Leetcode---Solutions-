@@ -10,7 +10,6 @@ class Solution(object):
         :type n: int
         :rtype: List[Optional[TreeNode]]
         """
-       
         if n == 0:
             return []
 
