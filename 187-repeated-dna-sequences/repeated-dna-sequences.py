@@ -4,7 +4,6 @@ class Solution(object):
         :type s: str
         :rtype: List[str]
         """
-        
         seen = set()
         repeated = set()
 
