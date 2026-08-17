@@ -5,7 +5,6 @@ class Solution(object):
         :type version2: str
         :rtype: int
         """
-        
         v1 = version1.split(".")
         v2 = version2.split(".")
 
