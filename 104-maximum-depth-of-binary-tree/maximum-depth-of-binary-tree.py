@@ -10,7 +10,6 @@ class Solution(object):
         :type root: Optional[TreeNode]
         :rtype: int
         """
-
         if not root:
             return 0
 
