@@ -5,7 +5,6 @@ class Solution(object):
         :type word2: str
         :rtype: int
         """
-        
         m = len(word1)
         n = len(word2)
 
