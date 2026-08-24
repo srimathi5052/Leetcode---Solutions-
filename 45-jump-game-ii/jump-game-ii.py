@@ -4,7 +4,6 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        
         jumps = 0
         current_end = 0
         farthest = 0
@@ -13,7 +12,7 @@ class Solution(object):
             farthest = max(farthest, i + nums[i])
 
             if i == current_end:
-                jumps += 1
+                jumps += 1  
                 current_end = farthest
 
         return jumps
