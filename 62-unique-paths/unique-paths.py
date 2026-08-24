@@ -5,7 +5,6 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-
         dp = [[1] * n for _ in range(m)]
 
         for i in range(1, m):
