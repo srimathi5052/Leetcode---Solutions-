@@ -10,7 +10,6 @@ class Solution(object):
         :type k: int
         :rtype: Optional[ListNode]
         """
-
         if not head or not head.next or k == 0:
             return head
 
