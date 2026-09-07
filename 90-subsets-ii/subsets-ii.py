@@ -20,4 +20,4 @@ class Solution(object):
                 path.pop()
 
         backtrack(0, [])
-        return result 
+        return result
