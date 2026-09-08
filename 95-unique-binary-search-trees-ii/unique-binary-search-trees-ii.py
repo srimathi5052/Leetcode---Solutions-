@@ -32,4 +32,4 @@ class Solution(object):
 
             return trees
 
-        return build(1, n) 
+        return build(1, n)
