@@ -16,4 +16,4 @@ class Solution(object):
                     dp[i] = True
                     break
 
-        return dp[len(s)] 
+        return dp[len(s)]
