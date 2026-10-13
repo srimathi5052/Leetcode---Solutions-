@@ -11,3 +11,4 @@ class Solution(object):
             result = result * 26 + (ord(char) - ord('A') + 1)
 
         return result
+        
