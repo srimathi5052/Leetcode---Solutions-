@@ -15,4 +15,4 @@ class Solution(object):
             else:
                 merged[-1][1] = max(merged[-1][1], interval[1])
 
-        return merged 
+        return merged
