@@ -18,3 +18,4 @@ class Solution(object):
             b = b.next if b else headA
 
         return a
+        
